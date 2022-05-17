@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Pendlaren - Hållplatser nära dig</title>
+</head>
+<body>
+    <main>
+        <section class="container">
+        <h1>Hållplatser nära dig <button id="getLocation"><i class="fa-solid fa-location-arrow"></i></button></h1>
+        <input type="text" value="" class="start" placeholder="From" id="from">
+        <input type="text" value="" class="end" placeholder="To" id="to">
+        <button id="searchBtn">Sök</button>
+    </section>
+    <section class="res-container">
+        <div>
+
+                <ul id="res-list">
+                </ul>
+
+
+
+            
+
+
+        </div>
+        <div id="departure">
+            <div class="hide" id="back"><i class="fa-solid fa-arrow-left"></i> Back </div>
+            <ul id="dep"></ul>
+        </div>
+    </section>
+        
+           
+        
+    </main>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
